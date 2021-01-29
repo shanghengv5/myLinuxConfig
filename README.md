@@ -1,7 +1,7 @@
 <!--
  * @Date: 2021-01-14 14:56:52
  * @LastEditors: LiShangHeng
- * @LastEditTime: 2021-01-16 10:37:27
+ * @LastEditTime: 2021-01-29 14:05:00
  * @FilePath: /myLinux/README.md
 -->
 
@@ -16,3 +16,9 @@
 git clone https://github.com/shanghengv5/myLinuxConfig
 bash myLinuxConfig/lsh_install.sh && . myLinuxConfig/scripts/lsh_env.sh
 ```
+
+## 配置相关
+
+Vim 配置文件分为系统配置文件和用户配置文件：
+系统配置文件位于 Vim 的安装目录（默认路径为 /etc/.vimrc）；
+用户配置文件位于主目录 ~/.vimrc，即通过执行 vim ~/.vimrc 命令即可对此配置文件进行合理修改。通常情况下，Vim 用户配置文件需要自己手动创建。

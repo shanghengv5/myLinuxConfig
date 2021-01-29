@@ -2,8 +2,8 @@
 ###
  # @Date: 2021-01-14 15:18:16
  # @LastEditors: LiShangHeng
- # @LastEditTime: 2021-01-14 18:24:35
- # @FilePath: /Study-Notes/Linux/myLinux/lsh_install.sh
+ # @LastEditTime: 2021-01-29 14:05:27
+ # @FilePath: /myLinux/lsh_install.sh
 ### 
 # 环境变量在脚本运行完后,去/etc/profile.d手动开启
 curDir=$(cd $(dirname $0); pwd);
@@ -12,7 +12,7 @@ scriptSuffix="/scripts";
 myvimrc="$curDir/myvimrc";
 # 安装地址
 cpScripts="$cpPrefix$scriptSuffix"
-# 服务器vim地址
+# 用户的vim配置
 vimPath="/root/.vimrc";
 # 环境变量地址
 envPath="/etc/profile.d";
